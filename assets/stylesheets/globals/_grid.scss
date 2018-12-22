@@ -28,7 +28,7 @@ section {
   width: 100%;
 }
 
-@import "globals/grid_mixins";
+@import "grid_mixins";
 
 .container {
   @extend .clearfix;

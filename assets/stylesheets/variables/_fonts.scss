@@ -1,15 +1,15 @@
+// <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Yanone+Kaffeesatz:700" rel="stylesheet">
+
 // Fonts
-$sans:        'Open Sans', Arial, sans-serif;
-$montserrat:  'Montserrat', sans-serif;
-$monaco:      'Monaco', monospace;
-$caveat:      'Caveat', cursive;
+$yanone: 'Yanone Kaffeesatz', sans-serif;
+$lato: 'Lato', sans-serif;
 
-$body: $montserrat;
-$heading: $montserrat;
-$button: $montserrat;
-$mono: $monaco;
+$body: $lato;
+$heading: $yanone;
+$button: $yanone;
+$mono: monospace;
 
-$font-family-sans-serif:  $montserrat;
+$font-family-sans-serif:  $lato;
 $font-family-serif:       $heading;
 $font-family-base:        $font-family-sans-serif !default;
 
@@ -26,8 +26,4 @@ $thin: 100;
 }
 .mono {
   font-family: $mono;
-}
-
-.caveat {
-  font-family: $caveat;
 }
